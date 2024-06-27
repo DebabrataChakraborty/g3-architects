@@ -65,7 +65,7 @@ nav li a{
 }
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 .team-description{
     display: flex;
@@ -94,6 +94,9 @@ main{
     font-weight: 700px;
 
 }
+.tm-description{
+    color: #727272;
+}
 
 /* responsive */
 @media screen and (max-width:576px) {
@@ -104,6 +107,17 @@ main{
         flex-direction: column;
     }
     
+    .team-description{
+        flex-direction: column;
+
+    }
+    .tm-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .img-description{
+        padding-right: 20px;
+        padding-left: 20px;
+     }
 }
 
 
@@ -112,6 +126,9 @@ main{
         padding: 50px;
     }
     nav{
+        flex-direction: column;
+    }
+    .team-description{
         flex-direction: column;
     }
     
