@@ -97,6 +97,15 @@ main{
 .tm-description{
     color: #727272;
 }
+/* facts style */
+.fact-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.facts-description{
+    color: #727272;
+}
 
 /* responsive */
 @media screen and (max-width:576px) {
