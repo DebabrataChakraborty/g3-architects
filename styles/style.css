@@ -97,6 +97,37 @@ main{
 .tm-description{
     color: #727272;
 }
+/* features style */
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap:100px;
+}
+.features-title{
+    font-size: 2.8rem;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features-description{
+    color: #727272;
+}
+.features-content .card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.06);
+}
+.ten-years{
+    border: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width:342px;
+    padding: 40px;
+}
+.ten-years h2{
+    font-size: 65px;
+}
 /* facts style */
 .fact-title{
     color: #131313;
